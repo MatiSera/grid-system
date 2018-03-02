@@ -66,3 +66,12 @@ table {
 .sidebar{
     font-size: 10px;
 }
+html [class$="r"]{
+	background-color: magenta !important;
+}
+html [class*="a"]{
+	background-color: blue;
+}
+*{
+	font-weight: 100;
+}
